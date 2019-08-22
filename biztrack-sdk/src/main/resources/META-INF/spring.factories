@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.intuit.vkamble.biztrack.biztracksdk.config.SDKConfig
