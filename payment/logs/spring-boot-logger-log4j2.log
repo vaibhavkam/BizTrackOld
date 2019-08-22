@@ -1,0 +1,171 @@
+[2019-08-08 17:18:25:125] [,,,] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2019-08-08 17:18:25:332] [,,,] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56c891c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-08-08 17:18:25:491] [,,,] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646) - No active profile set, falling back to default profiles: default
+[2019-08-08 17:18:26:144] [,,,] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-08-08 17:18:26:187] [,,,] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+[2019-08-08 17:18:26:268] [,,,] [WARN] - org.springframework.boot.actuate.endpoint.EndpointId.logWarning(EndpointId.java:131) - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[2019-08-08 17:18:26:405] [,,,] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=03340386-8238-33da-b0ce-d0d11f8ed2cc
+[2019-08-08 17:18:26:464] [,,,] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$e60a046] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-08-08 17:18:26:563] [,,,] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3aae8ec3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-08-08 17:18:26:771] [,,,] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56c891c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-08-08 17:18:27:121] [,,,] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8081 (http)
+[2019-08-08 17:18:27:132] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+[2019-08-08 17:18:27:139] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2019-08-08 17:18:27:140] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2019-08-08 17:18:27:227] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2019-08-08 17:18:27:228] [,,,] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 1728 ms
+[2019-08-08 17:18:27:377] [,,,] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[2019-08-08 17:18:27:377] [,,,] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2019-08-08 17:18:27:388] [,,,] [INFO] - com.netflix.config.DynamicPropertyFactory.getInstance(DynamicPropertyFactory.java:281) - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@36fab535
+[2019-08-08 17:18:27:882] [,,,] [INFO] - org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar.register(ServletEndpointRegistrar.java:74) - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+[2019-08-08 17:18:27:946] [,,,] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[2019-08-08 17:18:28:336] [,,,] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[2019-08-08 17:18:28:379] [,,,] [INFO] - org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2019-08-08 17:18:28:421] [,,,] [INFO] - org.hibernate.Version.logVersion(Version.java:46) - HHH000412: Hibernate Core {5.3.10.Final}
+[2019-08-08 17:18:28:422] [,,,] [INFO] - org.hibernate.cfg.Environment.<clinit>(Environment.java:213) - HHH000206: hibernate.properties not found
+[2019-08-08 17:18:28:508] [,,,] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2019-08-08 17:18:28:654] [,,,] [INFO] - org.hibernate.dialect.Dialect.<init>(Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+[2019-08-08 17:18:28:778] [,,,] [INFO] - org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2019-08-08 17:18:28:781] [,,,] [INFO] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:159) - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@150bee02
+[2019-08-08 17:18:29:258] [,,,] [INFO] - org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-08-08 17:18:29:341] [,,,] [WARN] - org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:60) - Unable to start LiveReload server
+[2019-08-08 17:18:29:881] [,,,] [INFO] - org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService(QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+[2019-08-08 17:18:30:020] [,,,] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[2019-08-08 17:18:30:021] [,,,] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2019-08-08 17:18:30:200] [,,,] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2019-08-08 17:18:30:233] [,,,] [WARN] - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:225) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2019-08-08 17:18:30:609] [,,,] [INFO] - org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>(EndpointLinksResolver.java:58) - Exposing 19 endpoint(s) beneath base path '/actuator'
+[2019-08-08 17:18:30:654] [,,,] [INFO] - org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:279) - AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2019-08-08 17:18:30:684] [,,,] [INFO] - org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:109) - Kafka version : 2.0.1
+[2019-08-08 17:18:30:684] [,,,] [INFO] - org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:110) - Kafka commitId : fa14705e51bd2ce5
+[2019-08-08 17:18:30:893] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8081"]
+[2019-08-08 17:18:30:952] [,,,] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202) - Tomcat started on port(s): 8081 (http) with context path ''
+[2019-08-08 17:18:30:963] [,,,] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started PaymentApplication in 6.273 seconds (JVM running for 7.367)
+[2019-08-08 17:18:31:348] [,,,] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-08-08 17:18:31:348] [,,,] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[2019-08-08 17:18:31:360] [,,,] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 12 ms
+[2019-08-08 17:19:40:347] [,,,] [INFO] - com.intuit.vkamble.biztrack.biztracksdk.client.BizTrackService.isCustomerExists(BizTrackService.java:44) - isCustomerExists with id:5
+[2019-08-08 17:19:40:425] [,,,] [INFO] - com.intuit.vkamble.biztrack.biztracksdk.client.BizTrackService.isInvoiceExists(BizTrackService.java:63) - isInvoiceExists with id:1
+[2019-08-08 17:19:40:466] [,,,] [INFO] - com.intuit.vkamble.biztrack.biztracksdk.client.BizTrackService.updateInvoiceStatus(BizTrackService.java:112) - updateInvoiceStatus with id:1, paidAmount:200, invoiceStatus:PAID
+[2019-08-08 17:19:40:595] [,,,] [INFO] - com.intuit.vkamble.biztrack.biztracksdk.client.BizTrackService.adjustDueAmount(BizTrackService.java:81) - adjustDueAmount with id:5, changeInAmount:-200
+[2019-08-08 17:19:40:694] [,,,] [INFO] - org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:279) - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2019-08-08 17:19:40:721] [,,,] [INFO] - org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:109) - Kafka version : 2.0.1
+[2019-08-08 17:19:40:722] [,,,] [INFO] - org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:110) - Kafka commitId : fa14705e51bd2ce5
+[2019-08-08 17:19:40:733] [,,,] [INFO] - org.apache.kafka.clients.Metadata.update(Metadata.java:285) - Cluster ID: viC4H7YDRNa-m1VX6YqjRQ
+[2019-08-08 17:19:40:751] [,,,] [INFO] - com.intuit.vkamble.biztrack.payment.performance.PerformanceAspect.profileAllMethods(PerformanceAspect.java:35) - Execution time of PaymentService.create :: 583 ms
+[2019-08-08 17:19:40:792] [,,,] [INFO] - com.intuit.vkamble.biztrack.payment.intercepters.RequestInterceptor.afterCompletion(RequestInterceptor.java:27) - {"request":{"method":"POST","path":"/v1/payments","contentType":"application/json","length":"50"},"response":{"status":200,"contentType":"application/json;charset=UTF-8"}}
+[2019-08-08 17:46:41:338] [,,,] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:766) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s593ms).
+[2019-08-08 18:24:03:056] [,,,] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-08-08 18:24:03:252] [,,,] [INFO] - org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:1090) - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2019-08-08 18:24:03:266] [,,,] [INFO] - org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:597) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2019-08-08 18:24:03:394] [,,,] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[2019-08-08 18:24:03:400] [,,,] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
